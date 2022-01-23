@@ -1,0 +1,141 @@
+body {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+header{
+    margin-top: 0;
+    align-content: center;
+    background: black;
+    color: aquamarine;
+    padding: 20px 0;
+}
+
+.topPage {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a, h1 {
+	text-transform: uppercase;
+	color: aquamarine;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.midPage{
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/coding-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    padding: 1.45rem 0;
+}
+
+
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes{
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: .3rem;    
+}
+
+.input {
+margin-left: 50px;
+}
+
+.selecao{
+    cursor: pointer;
+    grid-column: span 2;
+    font-size: 1.255;
+}
+
+.passinho{
+    width: 60%;
+    grid-column: span 2;
+}
+
+.interact{
+    align-self: center;
+    justify-self: center;
+    margin-top: auto;
+}
+
+.divbtn{
+align-self: center;
+}
+.actionbtn {
+    align-self: center;
+    justify-content: center;
+    margin-top: 1%;
+    width: 7rem;
+    height: 2rem;
+    background-color: black;
+    color: aquamarine;
+}
+
+label {
+    color: aquamarine;
+}
+
+form{
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 1.2rem;
+}
+
+textarea {
+    padding: 1.300rem;
+    height: 20vh;
+    width: 70%;
+    resize: none;
+    font-family: inherit;
+    color: aquamarine;
+    border: solid .1rem;
+    border-radius: 3%;
+    border-color: aquamarine;
+    place-self: center;
+    background-color: black;
+}
+
+button{
+    width: 7rem;
+    height: 2.3rem;
+}
+
+.endPage{
+    color: aquamarine;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: monospace;
+    text-align: center;
+}
+
+.invisivel{
+    display: none;
+}
